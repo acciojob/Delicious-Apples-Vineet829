@@ -1,1 +1,111 @@
-/* your code here */
+body{
+	background-color:lightgreen;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    height:100vh;	
+	
+
+}
+
+.product{
+	display:flex;
+	background-color:white;
+	width:35rem;
+	height:31rem;
+}
+
+.photo-container{
+	display:flex;
+	flex-direction:column;
+	
+	position:relative;
+	right:30px;
+	top:37px;
+	height:26rem;
+	border-radius:5px;
+	background:white;
+	
+	
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	margin-left:10px;
+	margin-right:10px;
+}	
+	
+
+.photo-main{
+	background-color: limegreen;
+	height:18rem;
+	border-radius:5px;
+	
+
+}
+.big{
+	position:relative;
+	right:70px;
+}
+.photo-album ul{
+	display:flex;
+}
+
+.photo-album li{
+	list-style:none;
+}
+.photo-album img{
+	height:40px;
+}
+.product__info{
+	display:flex;
+	flex-direction:column;
+	
+}
+
+.title{
+	display:flex;
+	
+	flex-direction:column;
+	
+	margin-top:45px;
+	gap:2px;
+
+   
+}
+
+.title h1,
+.title span {
+    margin: 0;
+    padding: 0; 
+}
+
+.title span {
+    font-size:10px;
+}
+
+.variant ul{
+	display:flex;
+	list-style:none;
+	
+}
+.price{
+	color:red;
+}
+.price span{
+	font-size:50px;
+}
+.variant p{
+	font-size:15px;
+}
+button{
+	background-color:red;
+	color:white;
+	width:120px;
+	height:50px;
+	border-radius:10px;
+}
+
+
+
+
